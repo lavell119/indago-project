@@ -25,6 +25,7 @@
     flex-direction: column;
     justify-content: space-between;
     background: blue;
+    padding: 10px;
 }
 
 .sec-1-left-content h3, p, button {
@@ -57,12 +58,35 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .section-1-right img {
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
     margin-bottom: 50px;
     background: orange;
 }
 
+.img-nav {
+    width: 80%;
+    height: 30px;
+    position: absolute;
+    background: red;
+    top: 600px;
+
+}
+
+.section-2 {
+    height: 70vh;
+    width: 100%;
+    background: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-statement {
+    height: 50%;
+    width: 100%;
+}
