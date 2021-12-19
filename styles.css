@@ -56,4 +56,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
+.section-1-right img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 50px;
+    background: orange;
+}
+
