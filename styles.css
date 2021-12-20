@@ -29,6 +29,12 @@
     padding: 10px;
 }
 
+.sec-1-left-p {
+    height: 200px;
+    background: darkblue;
+    color: white;
+}
+
 .sec-1-left-content h3, p, button {
     background: darkblue;
     color: white;
@@ -36,6 +42,7 @@
 
 .sec-1-left-content p {
     height: 150px;
+
 }
 
 .sec-1-left-content button {
@@ -54,7 +61,10 @@
     display: flex;
     align-items: center; 
     justify-content: center;
+}
 
+.sec-1-left-p {
+    height: 200px;
 }
 
 .section-1-right {
